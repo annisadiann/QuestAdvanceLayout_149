@@ -80,8 +80,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
-        Card {
-            (modifier = Modifier
+        Card(
+            modifier = Modifier
                 .fillMaxWidth(1f)
                 .padding(horizontal = 12.dp, vertical = 8.dp),
             colors = CardDefaults.cardColors(
@@ -121,9 +121,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     )
                 }
             }
-    }
-        Card {
-            (modifier = Modifier
+        }
+        Card(
+            modifier = Modifier
                 .fillMaxWidth(1f)
                 .padding(horizontal = 12.dp, vertical = 8.dp),
             colors = CardDefaults.cardColors(
@@ -162,9 +162,9 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                     )
                 }
             }
-    }
+        }
 
-    }
+
         Box(
             modifier = Modifier
                 .fillMaxSize()
