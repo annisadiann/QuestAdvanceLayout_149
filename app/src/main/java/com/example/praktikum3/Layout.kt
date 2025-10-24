@@ -89,6 +89,8 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             )
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
+                val gambar = painterResource(R.drawable.logoumy)
+            }
     }
         Box(
             modifier = Modifier
