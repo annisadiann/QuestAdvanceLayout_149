@@ -14,6 +14,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.layout.*
 import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
+import androidx.compose.material3.SearchBarDefaults.colors
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -80,9 +81,12 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
             }
         }
         Card
-        (modifier = Modifier
-            .fillMaxWidth(1f)
-            .padding(horizontal = 12.dp, vertical = 8.dp),
+            (modifier = Modifier
+                .fillMaxWidth(1f)
+                .padding(horizontal = 12.dp, vertical = 8.dp),
+            colors = CardDefaults.cardColors(
+                containerColor = Color.Blue)
+        ){
         Box(
             modifier = Modifier
                 .fillMaxSize()
