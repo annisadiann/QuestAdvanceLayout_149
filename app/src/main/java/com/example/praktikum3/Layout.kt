@@ -80,7 +80,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
         }
-        Card
+        Card {
             (modifier = Modifier
                 .fillMaxWidth(1f)
                 .padding(horizontal = 12.dp, vertical = 8.dp),
@@ -90,7 +90,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
                 val gambar =
-                    painterResource(R.drawable.logoumy)
+                    painterResource(R.drawable.download)
                 Image(
                     painter = gambar,
                     contentDescription = null,
@@ -122,7 +122,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 }
             }
     }
-        Card
+        Card {
             (modifier = Modifier
                 .fillMaxWidth(1f)
                 .padding(horizontal = 12.dp, vertical = 8.dp),
@@ -130,7 +130,7 @@ fun ActivitasPertama(modifier: Modifier = Modifier) {
                 containerColor = Color.Red)
         ) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                val gambar = painterResource(R.drawable.logoumy)
+                val gambar = painterResource(R.drawable.download)
                 Image(
                     painter = gambar,
                     contentDescription = null,
